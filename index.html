@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Виртуальная экскурсия</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<script src='ec.js'></script>
+	<header class="header">
+	<div class="header_inner">
+	</div>
+	<div class="txt">
+		<div class="txt2">
+			<h1>Виртуальная экскурсия в дворянскую усадьбу Брянчаниновых</h1>
+			<a href="#locationtxt"><h1>Погнали!</h1></a>
+		</div>
+
+	</div>	
+	</header>
+	<main>
+		<div class="location">
+			<p class="loctxt" id = "locationtxt">Выбор локации: </p>
+			<select size="1" id="select" onchange="select()">
+				<option value="vhod" id="choose">Перед усадьбой</option>
+				<option id="l1" value="ll1">
+					<div class="l1">
+					1 эт. команата 1
+					</div>
+				</option>
+
+				<option id="l2" value="ll2">
+					<div class="l2">
+					1 эт. команата 2
+					</div>	
+				</option>
+
+				<option id="l3" value="ll3">
+					<div class="l3">
+					Лестница на 2 этаж
+					</div>	
+					</option>
+
+				<option id="l4" value="ll4">
+					<div class="l4">
+					2 эт. команата 1
+					</div>	
+				</option>
+
+				<option id="l5" value="ll5">
+					<div class="l5">
+					2 эт. команата 2
+					</div>	
+				</option>
+		</select>
+		</div> 
+		<div class="imgs">
+			<img src="img/kom5.jpg" alt="" class="loc1 hidden" id="loc">
+			<img src="img/kom2.jpg" alt="" class="loc2 hidden" id="loc">
+			<img src="img/2et.jpg" alt="" class="loc3 hidden" id="loc">
+			<img src="img/kom4.jpg" alt="" class="loc4 hidden" id="loc">
+			<img src="img/kom3.jpg" alt="" class="loc5 hidden" id="loc">
+			<img src="img/1.jpg" alt="" class="vhod hidden" id="loc">
+		</div>
+	</main>
+</body>
+</html>

@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+body
+{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background: url("bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+header{
+    width: 100%;
+    height: 990px;
+}
+.header_inner
+{
+	display: flex;
+    width: 100%;
+    height: 98%;
+    position:static;
+    color: black;
+    background: url("bg1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    filter: blur(5px);
+}
+.txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top :200px;
+
+}
+.txt2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 120px;
+    background-color: rgba(213, 238, 252, 0.952);
+    flex-direction: column;
+    border-radius: 1000px;
+}
+h1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#select {
+    margin-top: 10px;
+	width: 250px;
+    height: 25px;
+	outline: none;
+    font-size: 20px;
+	margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(230, 198, 255);
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.loctxt{
+	display: flex;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 24px;
+}
+.location{width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;}
+#loc {
+   width: 100%;
+   height: 100%;
+}
+main{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgs{
+    margin-top: 25px;
+    width: 890px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    margin-bottom: 150px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+a h1{
+    font-size: 18px;
+}
+a:hover{
+    background-color: rgba(13, 15, 15, 0.753);
+    color: white;
+}
